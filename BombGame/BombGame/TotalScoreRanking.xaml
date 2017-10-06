@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BombGame.TotalScoreRanking"
+    Title="TotalScore Ranking">
+	<ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+
+        <ListView x:Name="myListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" 
+                            VerticalOptions="Center"
+                            Margin="5" >
+                            <Label Text="{Binding RankingNum}" VerticalOptions="Center"/>
+                            <Image Source="{Binding ImageUrl}" VerticalOptions="Center"/>
+                            <Label Text="{Binding Name}" VerticalOptions="Center"/>
+                            <Label Text="{Binding TotalScore, StringFormat='{0}p'}" 
+                                 VerticalOptions="Center" 
+                            HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+
+                    </ViewCell>
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="UPDATE" FontAttributes="Bold"
+                BackgroundColor="Gray" TextColor="White" Margin="5"
+            VerticalOptions="CenterAndExpand" Clicked="Update_Clicked"/>
+       </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

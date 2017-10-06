@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:BombGame" x:Class="BombGame.BombGamePage"
+ BackgroundColor="#61D2D6" Title="Bomb Game" >
+
+    <Grid
+        Padding="30" RowSpacing="10" ColumnSpacing="10">
+        <Grid.RowDefinitions>
+<!--                <RowDefinition Height="1*"/>-->
+<!--            <RowDefinition Height="0.3*"/>-->
+            </Grid.RowDefinitions>
+        
+        <Label x:Name="titleLabel" Grid.Row="0" Grid.ColumnSpan="3" FontSize="40" Text="Click buttons!" TextColor="#01556E"
+            HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Label x:Name="scoreLabel" Grid.Row="1" Grid.ColumnSpan="3" FontSize="30" TextColor="#01556E"
+            HorizontalOptions="Center" VerticalOptions="Center"/>
+        
+        <Button Grid.Row="2" Grid.Column="0" Clicked="Handle_Clicked" 
+            Text="1" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+        
+        <Button Grid.Row="2" Grid.Column="1" Clicked="Handle_Clicked" 
+            Text="2" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+        
+        <Button Grid.Row="2" Grid.Column="2" Clicked="Handle_Clicked" 
+            Text="3" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+
+        <Button Grid.Row="3" Grid.Column="0" Clicked="Handle_Clicked" 
+            Text="4" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+        
+        <Button Grid.Row="3" Grid.Column="1" Clicked="Handle_Clicked" 
+            Text="5" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+        
+        <Button Grid.Row="3" Grid.Column="2" Clicked="Handle_Clicked" 
+            Text="6" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+
+        <Button Grid.Row="4" Grid.Column="0" Clicked="Handle_Clicked" 
+            Text="7" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+        
+        <Button Grid.Row="4" Grid.Column="1" Clicked="Handle_Clicked" 
+            Text="8" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+        
+        <Button Grid.Row="4" Grid.Column="2" Clicked="Handle_Clicked" 
+            Text="9" TextColor="White" FontAttributes="Bold"
+            BackgroundColor="#ED146F" BorderRadius="30" />
+
+        
+        <Button Grid.Row="5" Grid.ColumnSpan="3"
+         Text="Game Restart" Clicked="RestartButton_Clicked"
+            FontSize="30" TextColor="White"
+             BackgroundColor="#E3E36A" BorderRadius="30"/>
+        
+    </Grid>
+    
+
+</ContentPage>

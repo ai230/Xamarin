@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{8CCA4F6B-2891-4F00-9867-212CD385FAB2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+    <Files>
+      <File FileName="BombGame/BombGamePage.xaml" Line="6" Column="35" />
+      <File FileName="BombGame/TotalScoreRanking.xaml" Line="30" Column="61" />
+      <File FileName="BombGame/Tabbed.xaml" Line="6" Column="1" />
+      <File FileName="BombGame/Tabbed.xaml.cs" Line="10" Column="7" />
+      <File FileName="BombGame/TotalScoreRanking.xaml.cs" Line="31" Column="44" />
+      <File FileName="BombGame/Player.cs" Line="26" Column="26" />
+      <File FileName="BombGame/BombGamePage.xaml.cs" Line="18" Column="38" />
+      <File FileName="BombGame/obj/Debug/BombGame.TotalScoreRanking.xaml.g.cs" Line="22" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BombGame.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F3ABA2CE-DF6D-4631-8E52-E195290D934D">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.BombGame.iOS>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BombGame.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>
